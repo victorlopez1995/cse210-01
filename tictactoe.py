@@ -11,7 +11,6 @@ def main():
     print("xxxxxxxxxxxxxxxxxxxxxxxxxxxx")
     board_size=int(input("digite the board size: "))
     grip=create_grid(board_size)
-    #play("x", 1, board_size, grip)
     finish_game= True
     count = 0
     player = "x"
