@@ -11,7 +11,6 @@ def main():
     print("xxxxxxxxxxxxxxxxxxxxxxxxxxxx")
     board_size=int(input("digite the board size: "))
     grip=create_grid(board_size)
-    finish_game= True
     count = 0
     player = "x"
     while prove_of_winner_diagonal(grip,board_size,player) and prove_of_winner_file(grip, board_size,player) and prove_of_winner_row(grip,board_size,player) and count<(board_size*board_size):
